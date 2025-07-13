@@ -1,31 +1,33 @@
-# Smart Document Agents 🧠📄
+# 📄 Smart Document Agents
 
-This project was built for the GenAI Hackathon 2025.
+An intelligent Streamlit app that uses AI agents to analyze documents (TXT, PDF, DOCX, DOC). Built for the GenAI AgentOS Protocol Hackathon.
 
-## 🚀 Problem Statement
-Reading and analyzing long documents is time-consuming and error-prone.
-We solve this with AI agents that:
-- Summarize the document
-- Extract entities and sentiment
+## 🚀 Features
 
-## 🔁 Workflow
-1. User uploads a `.txt` file
-2. Summarizer Agent generates a short summary
-3. Insight Agent extracts named entities and sentiment
-4. All results are shown in an easy-to-use Streamlit interface
+- Upload TXT, PDF, DOC, or DOCX documents
+- Summarizes using HuggingFace BART
+- Named entity extraction with spaCy
+- Sentiment analysis with TextBlob
+- Stylish, user-friendly interface
+- Uses **2 AI agents** independently
 
-## 🛠️ Tech Stack
-- Streamlit (Frontend)
-- HuggingFace Transformers
-- spaCy
-- TextBlob
-- GenAI AgentOS Protocol
+## 🧠 Agents Used
 
-## 🎥 Demo Video
-_Link to be added_
+| Agent          | Description                            |
+|----------------|----------------------------------------|
+| 🧾 Summarizer   | Extracts concise summary using transformers |
+| 🔍 Insight Agent| Extracts named entities & sentiment using spaCy + TextBlob |
 
-## 📁 How to Run
+## 📽 Demo
+
+Watch this short video: [Demo Video Link]
+
+## 🛠 How to Run
 
 ```bash
+git clone https://github.com/sehar/smart_doc_agents.git
+cd smart_doc_agents
+python -m venv venv
+venv\Scripts\activate  # for Windows
 pip install -r requirements.txt
 streamlit run app.py
