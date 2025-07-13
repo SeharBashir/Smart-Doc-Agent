@@ -20,7 +20,7 @@ An intelligent Streamlit app that uses AI agents to analyze documents (TXT, PDF,
 
 ## 📽 Demo
 
-Watch this short video: [Demo Video Link]
+Watch this short video: https://www.loom.com/share/8f73ab14cb3a46dd8dff027dc5a36743
 
 ## 🛠 How to Run
 
